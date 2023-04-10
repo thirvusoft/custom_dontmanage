@@ -1,0 +1,334 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-07 13:24:37.441285",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "production_location",
+  "customer_name",
+  "billing_customer",
+  "billing_address",
+  "job_type",
+  "pages",
+  "pre_forma_billing_section",
+  "yes",
+  "no",
+  "prioritize_job_section",
+  "yes1",
+  "no1",
+  "customer_email_subject",
+  "column_break_cpjlz",
+  "job_mode_section",
+  "prepress_regular",
+  "prepress_direct",
+  "received_date__time",
+  "shipping_address",
+  "payment_mode",
+  "old_job_references",
+  "tracing_section",
+  "yes2",
+  "no2",
+  "column_break_c6dlf",
+  "email_date__time",
+  "job_name",
+  "job_nature",
+  "plate_thickness",
+  "preflight_details_section",
+  "yes3",
+  "no3",
+  "free_of_cost_section",
+  "yes4",
+  "no4",
+  "section_break_qs2p5",
+  "remarks",
+  "prepress_automation_section",
+  "job_category",
+  "column_break_ldtuy",
+  "job_complexity",
+  "section_break_eetov",
+  "job_range",
+  "column_break_bkk1i",
+  "job_proofing",
+  "column_break_kjxay",
+  "job_fast_track"
+ ],
+ "fields": [
+  {
+   "fieldname": "production_location",
+   "fieldtype": "Link",
+   "label": "Production Location",
+   "options": "Territory"
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Link",
+   "label": "Customer Name ",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "billing_customer",
+   "fieldtype": "Link",
+   "label": "Billing Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "billing_address",
+   "fieldtype": "Small Text",
+   "label": "Billing Address"
+  },
+  {
+   "fieldname": "job_type",
+   "fieldtype": "Select",
+   "label": "Job Type",
+   "options": "Full Time\nPart Time\nIntern"
+  },
+  {
+   "fieldname": "pages",
+   "fieldtype": "Data",
+   "label": "Pages"
+  },
+  {
+   "fieldname": "pre_forma_billing_section",
+   "fieldtype": "Heading",
+   "label": "Pre Forma Billing"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "prioritize_job_section",
+   "fieldtype": "Heading",
+   "label": "Prioritize Job"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes1",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no1",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "customer_email_subject",
+   "fieldtype": "Small Text",
+   "label": "Customer Email Subject"
+  },
+  {
+   "fieldname": "column_break_cpjlz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "job_mode_section",
+   "fieldtype": "Heading",
+   "label": "Job Mode"
+  },
+  {
+   "default": "0",
+   "fieldname": "prepress_regular",
+   "fieldtype": "Check",
+   "label": "Prepress Regular"
+  },
+  {
+   "default": "0",
+   "fieldname": "prepress_direct",
+   "fieldtype": "Check",
+   "label": "Prepress Direct"
+  },
+  {
+   "fieldname": "received_date__time",
+   "fieldtype": "Datetime",
+   "label": "Received Date & Time"
+  },
+  {
+   "fieldname": "shipping_address",
+   "fieldtype": "Small Text",
+   "label": "Shipping Address"
+  },
+  {
+   "fieldname": "payment_mode",
+   "fieldtype": "Select",
+   "label": "Payment Mode",
+   "options": "Credit\nCash"
+  },
+  {
+   "fieldname": "old_job_references",
+   "fieldtype": "Data",
+   "label": "Old Job References"
+  },
+  {
+   "fieldname": "tracing_section",
+   "fieldtype": "Heading",
+   "label": "Tracing"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes2",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no2",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "column_break_c6dlf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email_date__time",
+   "fieldtype": "Datetime",
+   "label": "Email Date & Time"
+  },
+  {
+   "fieldname": "job_name",
+   "fieldtype": "Data",
+   "label": "Job Name"
+  },
+  {
+   "fieldname": "job_nature",
+   "fieldtype": "Select",
+   "label": "Job Nature",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "plate_thickness",
+   "fieldtype": "Select",
+   "label": "Plate Thickness",
+   "options": "0.5\n0.6"
+  },
+  {
+   "fieldname": "preflight_details_section",
+   "fieldtype": "Heading",
+   "label": "Preflight Details"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes3",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no3",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "free_of_cost_section",
+   "fieldtype": "Heading",
+   "label": "Free of Cost"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes4",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no4",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "section_break_qs2p5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "prepress_automation_section",
+   "fieldtype": "Section Break",
+   "label": "Prepress Automation"
+  },
+  {
+   "fieldname": "job_category",
+   "fieldtype": "Select",
+   "label": "Job Category",
+   "options": "Full Time\nPart Time"
+  },
+  {
+   "fieldname": "column_break_ldtuy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "job_complexity",
+   "fieldtype": "Select",
+   "label": "Job Complexity",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "section_break_eetov",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "job_range",
+   "fieldtype": "Select",
+   "label": "Job Range",
+   "options": "6 Month\n1 Year\n2 Year"
+  },
+  {
+   "fieldname": "column_break_bkk1i",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "job_proofing",
+   "fieldtype": "Select",
+   "label": "Job Proofing",
+   "options": "1\n2"
+  },
+  {
+   "fieldname": "column_break_kjxay",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "job_fast_track",
+   "fieldtype": "Select",
+   "label": "Job Fast Track",
+   "options": "1\n2\n3"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-04-10 19:31:25.469165",
+ "modified_by": "Administrator",
+ "module": "custom_dontmanage",
+ "name": "Job",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
